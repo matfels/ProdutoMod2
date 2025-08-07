@@ -1,14 +1,26 @@
 [
     {
-        "codigo": "001",
+        "codigo": "00223",
         "nome": "celular",
-        "quantidade": 0,
-        "valor": 0
+        "quantidade": 50,
+        "valor": 5000
     },
     {
-        "codigo": "001",
+        "codigo": "00223",
+        "nome": "celular",
+        "quantidade": 50,
+        "valor": 5000
+    },
+    {
+        "codigo": "00223",
+        "nome": "celular",
+        "quantidade": 50,
+        "valor": 5000
+    },
+    {
+        "codigo": "00223",
         "nome": "celular",
         "quantidade": 50,
         "valor": 5000
     }
-]       
+]
