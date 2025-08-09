@@ -3,12 +3,17 @@ from classes.Categoria import Categoria
 
 
 
-produto1 = Produto('00223','celular', 50, 5000)
+#Categoria.listarTodos()
+
+
+
+produto1 = Produto('001','Carro', 50, 1300)
 produto1.inserir()
 
-categoria = Categoria("Eletronico")
+categoria = Categoria("Veiculo")
 categoria.inserir()
 print(categoria.detalhar())
 
 produto1.listarTodos()
 categoria.listarTodos()
+
