@@ -1,50 +1,14 @@
 [
     {
-        "codigo": "00223",
-        "nome": "celular",
-        "quantidade": 50,
-        "valor": 5000
+        "codigo": "005",
+        "nome": "teste macrabo",
+        "quantidade": 30,
+        "valor": 2343324200
     },
     {
-        "codigo": "00223",
-        "nome": "celular",
-        "quantidade": 50,
-        "valor": 5000
-    },
-    {
-        "codigo": "00223",
-        "nome": "celular",
-        "quantidade": 50,
-        "valor": 5000
-    },
-    {
-        "codigo": "00223",
-        "nome": "celular",
-        "quantidade": 50,
-        "valor": 5000
-    },
-    {
-        "codigo": "001",
-        "nome": "Carro",
-        "quantidade": 50,
-        "valor": 1300
-    },
-    {
-        "codigo": "001",
-        "nome": "Carro",
-        "quantidade": 50,
-        "valor": 1300
-    },
-    {
-        "codigo": "001",
-        "nome": "Carro",
-        "quantidade": 50,
-        "valor": 1300
-    },
-    {
-        "codigo": "001",
-        "nome": "Carro",
-        "quantidade": 50,
-        "valor": 1300
+        "codigo": "005",
+        "nome": "teste macrabo",
+        "quantidade": 30,
+        "valor": 2343324200
     }
 ]

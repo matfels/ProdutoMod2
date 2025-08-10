@@ -7,13 +7,38 @@ from classes.Categoria import Categoria
 
 
 
-produto1 = Produto('001','Carro', 50, 1300)
-produto1.inserir()
 
-categoria = Categoria("Veiculo")
-categoria.inserir()
-print(categoria.detalhar())
+#produto1 = Produto('005','teste macrabo', 30, 2343324200)
+#produto1.inserir()
+#print(Produto.consultar())
+""" Item para alterar
+"""
 
-produto1.listarTodos()
-categoria.listarTodos()
+item = 0 
+Produto.excluir(item)
+
+#item = 1
+#ItemAlterar = Produto.consultar(item)
+
+#ProdutoAlterado = Produto(ItemAlterar['codigo'], ItemAlterar['nome'], 10, 100000000000000000)
+#ProdutoAlterado.alterar(item)
+#print(Produto.consultar())
+
+""" 
+print("Arquivo produto: ")
+print(Produto.consultar())
+print("=========================================== ")
+print("Arquivo Categoria: ")
+print(Categoria.consultar())
+"""
+
+#produto1.inserir()
+
+#categoria = Categoria("Notebook")
+#categoria.inserir()
+#print(categoria.detalhar())
+
+#produto1.listarTodos()
+#categoria.listarTodos()
+
 

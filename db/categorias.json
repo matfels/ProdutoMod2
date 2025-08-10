@@ -1,26 +1,14 @@
 [
     {
-        "nome": "Eletronico"
+        "nome": "Celular"
     },
     {
-        "nome": "Eletronico"
+        "nome": "Carro"
     },
     {
-        "nome": "Eletronico"
+        "nome": "Churrasqueira Eletrica"
     },
     {
-        "nome": "Eletronico"
-    },
-    {
-        "nome": "Veiculo"
-    },
-    {
-        "nome": "Veiculo"
-    },
-    {
-        "nome": "Veiculo"
-    },
-    {
-        "nome": "Veiculo"
+        "nome": "Notebook"
     }
 ]
