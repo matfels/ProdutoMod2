@@ -2,43 +2,54 @@ from classes.Produto import Produto
 from classes.Categoria import Categoria
 
 
+def menu():
+    print()
+    print("Digite uma alternativa: ")
+    print("1 - Listra Produtos")
+    print("2 - Inserir Produtos")
+    print("3 - Alterar Produtos")
+    print("4 - Excluir Produtos")
+    print("0 - Sair")
 
-#Categoria.listarTodos()
+opcao = 1    
+    
+while opcao != 0:
+    menu()
+    opcao = int(input("Digite um valor: "))
+    match opcao:
+        case 1:
+            print("=====================================================================================")
+            Produto.listarTodos()
+            print("=====================================================================================")
 
+        case 2: 
+            codigo     = int(input("Digite o numero do codigo: "))
+            nome       = str(input("Digite o nome do produto: "))
+            quantidade = int(input("Digite a quantidade de produto: "))
+            valor      = float(input("Digite o valor do produto: "))
+            
+            produto = Produto(codigo, nome, quantidade, valor)
+            
+            confirmacao = input("Tem certeza que deseja adicionar esse produto? (y) para sim (n) para não. Digite (y/n): ")
+            if confirmacao == "y":
+                produto.detalhar()
+                print()
+                
+                print("=====================================================================================")
+                produto.inserir()
+                print("=====================================================================================")
 
+            else:
+                print()
+                print("=====================================================================================")
+                print("Produto Cancelado")
+                print("=====================================================================================")
 
-
-#produto1 = Produto('005','teste macrabo', 30, 2343324200)
-#produto1.inserir()
-#print(Produto.consultar())
-""" Item para alterar
-"""
-
-item = 0 
-Produto.excluir(item)
-
-#item = 1
-#ItemAlterar = Produto.consultar(item)
-
-#ProdutoAlterado = Produto(ItemAlterar['codigo'], ItemAlterar['nome'], 10, 100000000000000000)
-#ProdutoAlterado.alterar(item)
-#print(Produto.consultar())
-
-""" 
-print("Arquivo produto: ")
-print(Produto.consultar())
-print("=========================================== ")
-print("Arquivo Categoria: ")
-print(Categoria.consultar())
-"""
-
-#produto1.inserir()
-
-#categoria = Categoria("Notebook")
-#categoria.inserir()
-#print(categoria.detalhar())
-
-#produto1.listarTodos()
-#categoria.listarTodos()
+        case 3:
+            ...
+        case 4:
+            ...
+    
+    
 
 
