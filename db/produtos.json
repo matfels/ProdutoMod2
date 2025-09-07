@@ -1,0 +1,32 @@
+[
+    {
+        "codigo": "005",
+        "nome": "teste macrabo",
+        "quantidade": 30,
+        "valor": 2343324200
+    },
+    {
+        "codigo": "005",
+        "nome": "teste macrabo",
+        "quantidade": 30,
+        "valor": 2343324200
+    },
+    {
+        "codigo": 2,
+        "nome": "P\u00e3o",
+        "quantidade": 10,
+        "valor": 0.25
+    },
+    {
+        "codigo": 3,
+        "nome": "Leite",
+        "quantidade": 2,
+        "valor": 4.85
+    },
+    {
+        "codigo": 5,
+        "nome": "teste",
+        "quantidade": 2,
+        "valor": 2.0
+    }
+]
